@@ -1,0 +1,11 @@
+{
+    "Diversions": {
+        "Drinks": ["Stouts", "Scotches"],
+        "Foods":  ["Sushi",  "Ramen", "Basashi"],
+        "Video":  ["Anime",  "TV Series", "Movies"]
+    },
+    "Works": {
+        "Programming": ["Javascript", "C++"],
+        "Drawing":     [ "Web Comix", "Mythological Illustration" ]
+    }
+}

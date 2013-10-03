@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cascaded Dropdown Test Page</title>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <div id="_01" class="CascadedDropdown"></div>
+    <div id="_02" class="CascadedDropdown"></div>
+    <p>On initializing the cascade buttons no actual options should be selected. The cascade is triggered only when the user selects an option.</p>
+    <script src="./js/CascadedDropdown.js"></script>
+    <script type="text/javascript">
+var cascade1 = new nn.Cascade( "_01", "./js/cascadeConfig.json" );
+var cascade2 = new nn.Cascade( "_02", "./js/EntertainmentConfig.json" );
+function init()
+{
+    cascade1.doCascade();
+    cascade2.doCascade();
+}
+init();
+    </script>
+
+</body>
+</html>
